@@ -1,0 +1,26 @@
+.pageNumber {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.each-pageNumber {
+  color: black;
+  font-size: 15px;
+  font-family: 'roboto';
+  border: solid 1px white;
+  padding: 15px;
+  margin-left: 10px;
+  cursor: pointer;
+  list-style-type: none;
+}
+.active {
+  color: white;
+  font-size: 18px;
+  font-family: 'roboto';
+  border: solid 1px blue;
+  padding: 15px;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: blue;
+  list-style-type: none;
+}

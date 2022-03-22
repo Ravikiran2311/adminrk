@@ -1,0 +1,45 @@
+.container-delete {
+  display: flex;
+  width: 20px;
+}
+.list-item {
+  list-style-type: none;
+  color: white;
+  width: 1000px;
+}
+
+.checkbox-for-properties {
+  height: 40px;
+}
+.UserList-Items-container {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 48px;
+  width: 1000px;
+  margin-left: 20px;
+}
+.User-name {
+  margin-left: 110px;
+  color: black;
+  width: 1700px;
+}
+.User-email {
+  margin-left: 50px;
+  color: black;
+  width: 1000px;
+}
+.User-role {
+  margin-left: 120px;
+  color: black;
+  width: 130px;
+}
+.delete-icon {
+  height: 80px;
+  width: 70px;
+}

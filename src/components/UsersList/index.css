@@ -1,0 +1,128 @@
+.main-container {
+  background: red;
+  height: 100vh;
+}
+.background-container {
+  background: #ffffff;
+  flex-grow: 1;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.UserList-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.searchBar {
+  height: 26px;
+  background-color: transparent;
+  border: solid 2px black;
+  width: 800px;
+  color: black;
+  border-radius: 3px;
+  padding: 20px;
+  margin-left: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.checkbox {
+  height: 40px;
+  margin-left: 15px;
+}
+::placeholder {
+  color: black;
+  font-size: 15px;
+  font-weight: 400px;
+}
+.listItems-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding-left: 0px;
+  margin-left: -20px;
+  column-width: auto;
+  padding-right: 10px;
+  height: 48px;
+  width: 1000px;
+}
+
+.heading-userList {
+  color: white;
+  font-weight: 600;
+}
+.pagination-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.pagination {
+  color: white;
+  font-size: 20px;
+}
+.page-numbers {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+}
+
+.delete-button {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  border-width: none;
+  margin-left: 30px;
+}
+.noPage-image {
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.UserId {
+  margin-left: 80px;
+  color: black;
+}
+.name {
+  margin-left: 130px;
+  color: black;
+}
+.email {
+  margin-left: 160px;
+  color: black;
+}
+.actions {
+  margin-left: 180px;
+  color: black;
+}
+.role {
+  margin-left: 200px;
+  color: black;
+}
+.action-icon {
+  color: black;
+  height: 70px;
+  width: 120px;
+}
+.delete-icon {
+  color: black;
+  height: 70px;
+  width: 120px;
+}
